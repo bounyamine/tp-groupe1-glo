@@ -134,6 +134,7 @@ Si un conflit survient lors du pull :
         Dessin.java
         SlantedRectangle.java
         Main.java
+    README.md
 
 ## Date de rendu
 
