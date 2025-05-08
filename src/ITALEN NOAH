@@ -1,0 +1,46 @@
+//Exercice 1
+public class SlantedRectangle extends Rectangle {
+    private double angle; // Angle d'inclinaison en radians
+
+    public SlantedRectangle (Point origin, int width, int height, double angle) {
+        super(origin, width, height);
+        this.angle = angle;
+    }
+
+    // Constructeur avec angle par défaut (0)
+    public SlantedRectangle(Point origin, int width, int height) {
+        this(origin, width, height, 0);
+    }
+//Exercice 2
+    public void rotate(double deltaAngle) {
+        this.angle += deltaAngle;
+        // Normaliser l'angle entre 0 et 2π
+        this.angle = this.angle % (2 * Math.PI);
+    }
+//Exercice 3
+@Override
+public double surface() {
+    // La surface ne change pas avec la rotation
+    return super.surface();
+}
+
+@Override
+public boolean contains(Point p) {
+    // Implémentation plus complexe qui tient compte de la rotation
+    // (nécessite des calculs de transformation de coordonnées)
+    // Solution simplifiée pour l'exemple :
+    Point rotatedP = rotatePoint(p, -angle);
+    return super.contains(rotatedP);
+}
+
+private Point rotatePoint(Point p, double rotAngle) {
+    double x = p.getX() - getOrigin().getX();
+    double y = p.getY() - getOrigin().getY();
+    
+    double newX = x * Math.cos(rotAngle) - y * Math.sin(rotAngle);
+    double newY = x * Math.sin(rotAngle) + y * Math.cos(rotAngle);
+    
+    return new Point((int)(newX + getOrigin().getX()), 
+                   (int)(newY + getOrigin().getY()));
+}
+}
