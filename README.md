@@ -11,10 +11,10 @@ Ce projet créer pour les travaux pratique en groupe sur la Programmation Orient
 
 ## Répartition des exercices
 
-- **Membre 1** : Exercices 10, 11, 12, 13
+- **Membre 1** : Exercices 1, 2, 3
 - **Membre 2** : Exercices 7, 8, 9
 - **Membre 3** : Exercices 4, 5, 6
-- **Membre 4** : Exercices 1, 2, 3
+- **Membre 4** : Exercices 10, 11, 12, 13
 
 ## Guide de contribution
 
@@ -39,19 +39,6 @@ git config user.email "votre.email@example.com"
 ```bash
 # S'assurer d'être à jour avec le dépôt distant
 git pull origin main
-```
-
-#### Pendant votre travail
-
-Programmez vos solutions pour les exercices qui vous sont attribués.
-N'oubliez pas d'ajouter un en-tête de documentation à chaque fichier :
-
-```java
-/**
- * Exercice X :
- * @author [Votre Nom]
- * @date [Date du jour]
- */
 ```
 
 #### Pour commiter votre travail
@@ -111,7 +98,7 @@ Si un conflit survient lors du pull :
 
 ```
 /src
-    /ItalenNoahClaudeSorel
+    /BounyamineOusmanou
         exercice1.md
         exercice2.md
         exercice3.md
@@ -123,7 +110,7 @@ Si un conflit survient lors du pull :
         exercice7.md
         exercice8.md
         exercice9.md
-    /DiyenYemBrian
+    /ItalenNoahClaudeSorel
         exercice10.md
         exercice11.md
         exercice12.md
