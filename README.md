@@ -11,10 +11,10 @@ Ce projet créer pour les travaux pratique en groupe sur la Programmation Orient
 
 ## Répartition des exercices
 
-- **Membre 1** : Exercices 1, 2, 3
+- **Membre 1** : Exercices 10, 11, 12, 13
 - **Membre 2** : Exercices 7, 8, 9
 - **Membre 3** : Exercices 4, 5, 6
-- **Membre 4** : Exercices 10, 11, 12, 13
+- **Membre 4** : Exercices 1, 2, 3
 
 ## Guide de contribution
 
@@ -99,9 +99,10 @@ Si un conflit survient lors du pull :
 ```
 /src
     /BounyamineOusmanou
-        exercice1.md
-        exercice2.md
-        exercice3.md
+        exercice10.md
+        exercice11.md
+        exercice12.md
+        exercice13.md
     /EnetaMoussaChristopheLeJolec
         exercice4.md
         exercice5.md
@@ -111,10 +112,9 @@ Si un conflit survient lors du pull :
         exercice8.md
         exercice9.md
     /ItalenNoahClaudeSorel
-        exercice10.md
-        exercice11.md
-        exercice12.md
-        exercice13.md
+        exercice1.md
+        exercice2.md
+        exercice3.md
     /globals
         Point.java
         Rectangle.java
@@ -125,4 +125,4 @@ Si un conflit survient lors du pull :
 
 ## Date de rendu
 
-À finir pour le : 20/05/2025
+À finir pour le : 10/05/2025
